@@ -1,0 +1,389 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img
+{
+    height: 38px;
+    margin-left: 6pc;
+}
+.style-list li a:hover
+{
+    color: rgb(142, 23, 172)! important;
+    line-height: 10px;
+}
+.trans  
+{
+    justify-content: flex-end;
+    margin-right: 8pc;
+}
+.navbar-expand-lg .navbar-nav 
+{
+    margin-left: 31pc;
+}
+button[type="submit"]
+{
+    background-color: #754FFF;
+    color: #fff;
+    text-transform: capitalize;
+} 
+button[type="submit"]:hover
+{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#754FFF , #9120FF , #D53CE6 );
+    height: 50px;
+    font-weight: 900;
+}
+.navbar
+{
+    border-bottom: solid 2px #eee;
+}
+/* end  */
+/* style for map */
+.map
+{
+    margin-left: 4pc;
+}
+/* end */
+/* style form  */
+#two-part .part-form
+{
+    width: 50%;
+    height: 490px;
+    margin-top: 2pc;
+    margin-left: 4pc;
+}
+#two-part .part-form form #you-full,
+#you-email,
+#subject
+{
+    width: 30pc;
+    outline: none;
+    border: 0.5px #eee solid;
+    margin-bottom: 1pc;
+    padding-left: 1pc;
+    height: 3pc;
+}
+#two-part .part-form form #your-massage
+{
+    width: 30pc;
+    outline: none;
+    border: 0.5px #eee solid;
+    margin-bottom: 1pc;
+    padding-left: 1pc;
+    resize: none;
+}
+#two-part .part-form form #you-full,
+#you-email,
+#subject,
+#your-massage:placeholder-shown
+{
+    font-size: 15px;
+}
+#two-part .part-form form #you-full:hover,
+#you-email:hover,
+#subject:hover ,
+#your-massage:hover
+{
+    box-shadow: 0px 0px 10px rgb(180, 69, 180);
+}
+#two-part .part-form form .btu-send
+{
+    background-color:  #754FFF;
+    color: #fff;
+    position: relative;
+    left: -30pc;
+    top: 1pc;
+    border-radius: 1px;
+    width: 6pc;
+    height: 3pc;
+    font-size: 19px;
+}
+#two-part .part-form form .btu-send:hover
+{
+    transform: translate(20px , 10px);
+    background-color: rgb(134, 30, 175);
+}
+#two-part .part-inform
+{
+    position: absolute;
+    right: 3pc;
+    top: 22pc;
+}
+#two-part .part-inform h2
+{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 37px;
+}
+#two-part .part-inform h2:hover
+{
+    transition: all 3s ease-out;
+    color: #754FFF ;
+    cursor: pointer;
+}
+#two-part .part-inform .address
+{
+    color: gray;
+    margin-bottom: 0pc;
+    font-size: 17px;
+}
+#two-part .part-inform .address:hover,
+#two-part .part-inform .email .com:hover
+{
+    transform: rotate(1deg);
+    color: #3f14d8 ;
+    cursor: pointer;
+}
+#two-part .part-inform .email .com
+{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 0pc;
+    font-size: 17px;
+}
+#two-part .part-inform .emploment h1
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+}
+#two-part .part-inform .emploment h1:hover
+{
+    transform: skew(9deg);
+    color: #754FFF ;
+    cursor: pointer;
+}
+#two-part .part-inform .emploment p
+{
+    color: gray;
+    font-size: 17px;
+}
+/* end */
+/* style for line  */
+.line
+{
+    height: 1px;
+    background-color: #eee;
+}
+/* end */
+/* style the end */ 
+#who-are
+{
+    display: flex;
+}
+#who-are .about
+{
+    margin: 2pc;
+}
+#who-are .about span
+{
+    font-weight: bolder;
+}
+#who-are .about p
+{
+    font-size: 15px;
+    color: gray;
+    margin-top: 1pc;
+}
+#who-are .share
+{
+    margin: 2pc;
+}
+#who-are .share h5 
+{
+    padding-bottom: 1pc;
+    font-size: 20px;
+
+}
+.fa-facebook-f ,.fa-twitter ,.fa-linkedin-in
+{
+    font-size: 18px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 0.3px solid #d6c6c6;
+    padding: 6px;
+    height: 31px;
+    cursor: pointer;
+}
+.fa-facebook-f:hover
+{
+    background-color: #0077B5;
+    color: #fff;
+}
+.fa-twitter:hover
+{
+    background-color: #1DA1F2;
+    color: #fff;
+}
+.fa-linkedin-in:hover
+{
+    background-color: #3B5998;
+    color: #fff;
+}
+#who-are .share p
+{
+    font-size: 15px;
+    color: gray;
+    padding-top: 1pc;
+}
+#who-are .sub
+{
+    margin: 2pc;
+    margin-left: 9pc;
+}
+.sub .sub-new
+{
+    width:124%;
+}
+#who-are .sub .button-ok
+{
+    background-color: #6E48FF;
+    color: #fff;
+}
+/* end */
+/* *************************************************************************************************** */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    .navbar 
+    {
+        width: 74pc;
+    }
+    .map 
+    {
+        margin-left: 0pc;
+    }
+    #two-part .part-inform 
+    {
+        position: relative;
+        right: -38pc;
+        top: -13pc;
+    }
+    #two-part .part-form form .btu-send
+    {
+        left: 0pc;
+    }
+    #who-are 
+    {
+        width: 69pc;
+    }
+    .line
+    { 
+        width: 74pc;
+    }
+    #two-part .part-form 
+    {
+        height: 214px;
+    }
+}
+/* **************************************************************************************************************** */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .navbar 
+    {
+        width: 75pc
+    }
+    .map 
+    {
+        margin-left: 0pc;
+    }
+    #two-part .part-inform 
+    {
+        right: -26pc;
+    }
+    #two-part .part-form form .btu-send 
+    {
+        left: 0pc;
+    }
+    #who-are 
+    {
+        width: 70pc;
+    }
+    .line 
+    {
+        width: 75pc;
+    }
+}
+/* ********************************************************************************************************** */
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .navbar 
+    {
+        width: 74pc;
+    }    
+    .map 
+    {
+        margin-left: 0pc;
+    }
+    #two-part .part-inform 
+    {
+        right: -13pc;
+    }
+    #two-part .part-form form .btu-send
+    {
+        left: 0pc;
+    }
+    #who-are 
+    {
+        width: 70pc;
+    }
+    .line 
+    {
+        width: 75pc;
+    }
+}
+/* ******************************************************************************************************** */
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .navbar 
+    {
+        margin-left: -3pc;
+    }
+    .map 
+    {
+        margin-left: 0pc;
+    }
+    #two-part .part-inform 
+    {
+        right: -12pc;
+    }
+    #two-part .part-form form .btu-send
+    {
+        left: 0pc;
+    }
+    #who-are 
+    {
+        width: 70pc;
+    }
+    .line 
+    {
+        width: 75pc;
+    }
+}
+/* *********************************************************************************************** */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px),(max-width:1300px)
+{
+    .navbar 
+    {
+        margin-left: -3pc;
+    }
+    .map 
+    {
+        margin-left: 4pc;
+    }
+    #who-are {
+        width: 78pc;
+    }
+    .line 
+    {
+        width: 85pc;
+    }
+}

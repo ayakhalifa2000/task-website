@@ -1,0 +1,575 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img
+{
+    height: 38px;
+    margin-left: 6pc;
+}
+.style-list li a:hover
+{
+    color: rgb(142, 23, 172)! important;
+    line-height: 10px;
+}
+.trans  
+{
+    justify-content: flex-end;
+    margin-right: 8pc;
+}
+.navbar-expand-lg .navbar-nav 
+{
+    margin-left: 31pc;
+}
+button[type="submit"]
+{
+    background-color: #754FFF;
+    color: #fff;
+    text-transform: capitalize;
+} 
+button[type="submit"]:hover
+{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#754FFF , #9120FF , #D53CE6 );
+    height: 50px;
+    font-weight: 900;
+}
+/* end  */
+#background img
+{
+    width: 100%;
+    height: 550px;
+}
+#background .text
+{
+    position: absolute;
+}
+#background .text h1,#background .text .pragraph
+{
+    position: relative;
+    bottom: 25pc;
+    left: 4pc;
+    text-transform: capitalize;
+}
+#background .text h1:hover,
+#background .text .pragraph:hover
+{
+    transform: rotate(4deg);
+    color: rgb(180, 73, 180);
+}
+#background .text .btn_dowload
+{
+    position: relative;
+    bottom: 25pc;
+    left: 4pc;
+    background-color: #6E48FF;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 2px;
+    -moz-border-radius:2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+#background .text .btn_dowload:hover
+{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#754FFF , #9120FF , #D53CE6 );
+    height: 50px;
+    font-weight: 900;
+}
+/* end */
+/* inform */
+.inform 
+{
+    height: 200px;
+}
+.inform .vivamus
+{
+    position:absolute
+}
+.inform .vivamus h2,.text-pra
+{
+    position: relative;
+    top: 4pc;
+    text-align: center;
+    text-transform: capitalize;
+    left: 15pc;
+}
+.inform .text-pra
+{
+    font-size: 15px;
+    color: gray;
+}
+/* end */
+/* type */
+.type
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3pc;
+    height: 265px;
+}
+.type .consectetur p
+{
+    font-size: 15px;
+    color: gray;
+    margin-right: 2pc;
+}
+.type .consectetur .fa-comment,.fa-heart,.fa-bell
+{
+    font-size: 50px;
+}
+.type .fa-comment:hover
+{
+    color: rgb(211, 183, 183) !important;
+    cursor: pointer;
+}
+.type .consectetur .fa-heart:hover
+{
+    color: #00f;
+    cursor: pointer;
+}
+.type .consectetur .fa-bell:hover
+{
+    color: gold;
+    cursor: pointer;
+}
+/* end */
+.line
+{
+    height: 1px;
+    background-color: gray;
+}
+/* end */
+/* style doard */
+.doard
+{
+    height: 647px;
+    margin-top: 2pc;
+}
+.doard .images .studio img
+{
+    height: 34pc;
+    margin: 2pc;
+    width: 80pc !important;
+}
+.doard .circle
+{ 
+    color: #3986ab;
+    height: 2px;
+    font-weight: 100;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+.doard .circle  .fa-circle:hover
+{
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 14px;
+}
+/* end */
+/* style for part */
+.part-one
+{
+    height:  365px;
+    background-color: #0C0633;
+}
+.part-one .center
+{
+    padding-top: 5pc;
+}
+.part-one .center h2,.part-two
+{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 1pc;
+}
+.part-one .center .part-two
+{
+    font-size: 15px;
+}
+.part-one .center .down
+{
+    position: relative;
+    bottom: -1pc;
+    left: 37pc;
+    background-color: #6E48FF;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 2px;
+    -moz-border-radius:2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -webkit-border-radius: 2px
+}
+.part-one .center .down:hover
+{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#754FFF , #9120FF , #D53CE6 );
+    height: 50px;
+    font-weight: 900;
+}
+/* end */
+/* start twoPart */
+#data
+{
+    height: 600px;
+}
+#data .partRight
+{
+    width: 50%;
+    height: 598px;
+}
+#data .partRight img
+{
+    margin-left: 4pc;
+    margin-top: 7pc;
+}
+#data .partLift
+{
+    width: 50%;
+    height: 598px;
+    float: right;
+    margin-top: -37pc;
+}
+.list-unstyled 
+{
+    padding-left: 9pc !important;
+    padding-top: 5pc;
+}
+.fa-check-circle
+{
+    position: relative;
+    top: 2pc;
+    right: 3pc;
+    color: #8B62FF;
+    font-size: 30px;
+}
+.fa-check-circle:hover
+{
+    transition: all 2s ease-in-out;
+    width: 8px;
+    color: hotpink;
+    cursor: pointer;
+}
+/* end */
+/* style work-with */
+footer
+{
+    height: 197px;
+}
+footer .work-with
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7pc;
+}
+footer .work-with img
+{
+    margin-right: 9pc;
+}
+footer .work-with img:hover
+{
+    transform: rotate(9deg);
+}
+/* end */
+/* style the end */
+#who-are
+{
+    display: flex;
+}
+#who-are .about
+{
+    margin: 2pc;
+}
+#who-are .about span
+{
+    font-weight: bolder;
+}
+#who-are .about p
+{
+    font-size: 15px;
+    color: gray;
+    margin-top: 1pc;
+}
+#who-are .share
+{
+    margin: 2pc;
+}
+#who-are .share h5 
+{
+    padding-bottom: 1pc;
+    font-size: 20px;
+
+}
+.fa-facebook-f ,.fa-twitter ,.fa-linkedin-in
+{
+    font-size: 18px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 0.3px solid #d6c6c6;
+    padding: 6px;
+    height: 31px;
+    cursor: pointer;
+}
+.fa-facebook-f:hover
+{
+    background-color: #0077B5;
+    color: #fff;
+}
+.fa-twitter:hover
+{
+    background-color: #1DA1F2;
+    color: #fff;
+}
+.fa-linkedin-in:hover
+{
+    background-color: #3B5998;
+    color: #fff;
+}
+#who-are .share p
+{
+    font-size: 15px;
+    color: gray;
+    padding-top: 1pc;
+}
+#who-are .sub
+{
+    margin: 2pc;
+    margin-left: 9pc;
+}
+.sub .sub-new
+{
+    width:124%;
+}
+#who-are .sub .button-ok
+{
+    background-color: #6E48FF;
+    color: #fff;
+}
+/* end */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    .navbar ,#background
+    {
+        width: 36pc;
+    }
+    #background .text h1, #background .text .pragraph 
+    {
+        bottom: 19pc;
+        left: 2pc;
+        font-size: 14px;
+    }
+    #background .text .btn_dowload 
+    {
+        bottom: 20pc;
+        left: 2pc;
+    }
+    .inform .vivamus h2, .text-pra 
+    {
+        left: 0pc;
+    }
+    .type
+    {
+        height: 529px;
+        flex-direction: column;
+    }
+    .line
+    { 
+        margin-left: 0pc;
+        width: 99%;
+        margin-top: 2pc;
+    }
+    .doard .images .studio img 
+    {
+        margin: 0pc;
+        width: 36pc !important;
+    }
+    .doard .circle 
+    {
+        margin-top: 1pc;
+    }
+    .part-one .center .down
+    {
+        left: 13pc;
+    }
+    #data .partRight img 
+    {
+        width: 73%;
+        margin-top: 21pc;
+    }
+    .partLift .text1
+    {
+        font-size: 15px;
+    }
+    footer .work-with img 
+    {
+        width: 12pc;
+        margin-left: -135px;;
+    }
+    footer .work-with 
+    {
+        margin-top: 15pc;
+        margin-right: 9pc;
+    }
+    #who-are .share h5 
+    {
+        font-size: 16px;
+    font-weight: bolder
+    }
+    #who-are .share p 
+    {
+        font-size: 10px;
+    }
+    #who-are .sub 
+    {
+        margin-left: 5pc;
+    }
+    #who-are .sub h5
+    {
+        font-size: 12px;
+    }
+}
+/* *************************************************************************************************** */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    #background ,.navbar ,.type ,.line
+    {
+        width: 76pc;
+    }
+    .inform .vivamus h2, .text-pra 
+    {
+        left: 20pc;
+    }
+    .doard 
+    {
+        width: 76pc;
+    }
+    .doard .images .studio img 
+    {
+        width: 100% !important;
+        margin: 0pc;
+    }
+    .doard .circle
+    {
+        margin-top: 2pc;
+    }
+    .part-one 
+    {
+        width: 76pc;
+    }
+    .part-one .center .down 
+    {
+        left: 33pc;
+    }
+    .list-unstyled
+    {
+        padding-left: 0pc !important;
+    }
+    #data .partRight img 
+    {
+        margin-left: 37pc;
+    }
+    footer .work-with 
+    {
+        margin-top: 9pc;
+    }
+    #who-are .sub 
+    {
+        position: relative;
+        right: -31pc;
+    }
+    #who-are .sub h5
+    {
+        font-size: 32px;
+    }
+    .sub .sub-new 
+    {
+        width: 171%;
+    }
+    #who-are .share 
+    {
+        position: relative;
+        left: 13pc;
+    }
+    
+}
+/* ******************************************************************************************************* */
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .navbar ,#background ,.type ,.line ,.doard ,.part-one
+    {
+        width: 76pc;
+    }
+    .part-one .center .down 
+    {
+        left: 33pc;
+    }
+    .list-unstyled
+    {
+        position: relative;
+        left: 13pc;
+    }   
+    footer .work-with 
+    {
+        margin-top: 7pc;
+    } 
+    #who-are .sub 
+    {
+        position: relative;
+        margin-left: 9pc;
+        left: 5pc;
+    }
+}
+/* ************************************************************************************************************ */
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+    .navbar ,#background ,.type ,.line ,.doard ,.part-one
+    {
+        width: 76pc;
+    }
+    .part-one .center .down 
+    {
+        left: 33pc;
+    }
+    .list-unstyled
+    {
+        position: relative;
+        left: 13pc;
+    }   
+    footer .work-with 
+    {
+        margin-top: 7pc;
+    } 
+}
+/* ************************************************************************************************* */
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px),(max-width:1300px)
+{
+    .navbar ,#background ,.type ,.line ,.doard ,.part-one
+    {
+        width: 84pc;
+    }
+    .part-one .center .down 
+    {
+        left: 37pc;
+    }   
+    footer .work-with 
+    {
+        margin-top: 7pc;
+    } 
+}
+/* ************************************************************************************************************** */

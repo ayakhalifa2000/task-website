@@ -1,0 +1,356 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img
+{
+    height: 38px;
+    margin-left: 6pc;
+}
+.style-list li a:hover
+{
+    color: rgb(142, 23, 172)! important;
+    line-height: 10px;
+}
+.navbar-expand-lg .navbar-nav 
+{
+    margin-left: 31pc;
+}
+.trans  
+{
+    justify-content: flex-end;
+    margin-right: 8pc;
+}
+button[type="submit"]
+{
+    background-color: #754FFF;
+    color: #fff;
+    text-transform: capitalize;
+} 
+button[type="submit"]:hover
+{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#754FFF , #9120FF , #D53CE6 );
+    height: 50px;
+    font-weight: 900;
+}
+.navbar
+{
+    border-bottom: solid 2px #eee;
+}
+#tittle
+{
+    margin-top: 4pc;
+    text-align: center;
+    text-transform: capitalize;
+}
+#tittle p
+{
+    text-align: left;
+    margin-left: 22pc;
+    color: gray;
+    font-size: 15px;
+    margin-top: 1pc;
+}
+/* end  */
+/* style card-group */
+.card
+{
+    margin-left: 3pc;
+    margin-right: 3pc;
+    border: none;
+}
+.card-one:hover,
+.card-two:hover,
+.card-three:hover
+{
+    transform: rotate(4deg);
+}
+.card-one,
+.card-two,
+.card-three
+{
+    margin-top: 2pc;
+}
+.card-group .profesional
+{
+    height: 215px;
+    background-color: #3CBFFA;
+    color: #fff;
+    text-align: center;
+}
+.card-group .personal
+{
+    height: 215px;
+    background-color: #4E74FF;
+    color: #fff;
+    text-align: center;
+}
+.card-group .Business
+{
+    background-color: #1F2946;
+    color: #fff;
+    text-align: center;
+    height: 215px;
+}
+.card-group .profesional h3
+{
+    text-transform: capitalize;
+    font-size: 27px;
+    margin-top: 2pc
+}
+.card-group .personal h3
+{
+    text-transform: capitalize;
+    font-size: 27px;
+    margin-top: 2pc
+}
+.card-group .Business h3
+{
+    text-transform: capitalize;
+    font-size: 27px;
+    margin-top: 2pc
+}
+.card-group .profesional .number
+{
+    font-size: 74px;
+}
+.card-group .personal .number
+{
+    font-size: 74px;
+} 
+.card-group .Business .number
+{
+    font-size: 74px;
+}
+.card-group .profesional .mo
+{
+    position: absolute;
+    top: 9pc;
+    right: 6pc;
+}
+.card-group .personal .mo
+{
+    position: absolute;
+    top: 9pc;
+    right: 6pc;
+}
+.card-group .Business .mo
+{
+    position: absolute;
+    top: 9pc;
+    right: 6pc;
+}
+.card .card-body 
+{
+    background-color: #F5F5F5;
+}
+.fa-check
+{
+    color: #744DFF;
+    margin-right: 1pc;
+}
+.card .card-body .te-pro
+{
+    font-size: 15px;
+    color: gray;
+    margin-top: 2pc;
+    margin-bottom: 2pc;
+    text-align: center;
+}
+.card .Subscribe
+{
+    background-color: #744DFF;
+    color: #fff;
+    width: 30%;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 1px;
+    margin-bottom: 2pc;
+    position: relative;
+    bottom: 3pc;
+    left: 2pc;
+}
+.card .Subscribe:hover
+{
+    background-color: rgb(75, 14, 119);
+    transition: all 2s ease-in-out;
+    width: 1px;
+}
+/* end */
+.line
+{
+    height: 1px;
+    background-color: #eee;
+}
+/* end */
+/* style work-with */
+footer
+{
+    height: 197px;
+}
+footer .work-with
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7pc;
+}
+footer .work-with img
+{
+    margin-right: 9pc;
+}
+/* end */
+/* style the end */
+#who-are
+{
+    display: flex;
+}
+#who-are .about
+{
+    margin: 2pc;
+}
+#who-are .about span
+{
+    font-weight: bolder;
+}
+#who-are .about p
+{
+    font-size: 15px;
+    color: gray;
+    margin-top: 1pc;
+}
+#who-are .share
+{
+    margin: 2pc;
+}
+#who-are .share h5 
+{
+    padding-bottom: 1pc;
+    font-size: 20px;
+
+}
+.fa-facebook-f ,.fa-twitter ,.fa-linkedin-in
+{
+    font-size: 18px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 0.3px solid #d6c6c6;
+    padding: 6px;
+    height: 31px;
+    cursor: pointer;
+}
+.fa-facebook-f:hover
+{
+    background-color: #0077B5;
+    color: #fff;
+}
+.fa-twitter:hover
+{
+    background-color: #1DA1F2;
+    color: #fff;
+}
+.fa-linkedin-in:hover
+{
+    background-color: #3B5998;
+    color: #fff;
+}
+#who-are .share p
+{
+    font-size: 15px;
+    color: gray;
+    padding-top: 1pc;
+}
+#who-are .sub
+{
+    margin: 2pc;
+    margin-left: 9pc;
+}
+.sub .sub-new
+{
+    width:124%;
+}
+#who-are .sub .button-ok
+{
+    background-color: #6E48FF;
+    color: #fff;
+}
+/* *************************************************************************************************** */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    #tittle p 
+    {
+        margin-left: 4pc;
+    }
+    .card-group 
+    {
+        flex-direction: column;
+    }
+    .card-one
+    {
+        position: relative;
+        left: 0pc;
+        margin-right: 0;
+    }
+    .card-two, .card-three 
+    {
+        position: relative;
+        left: 3pc;
+    }
+}
+/* ******************************************************************************************************* */
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    #tittle p 
+    {
+        margin-left: 6pc;
+    }
+    .card-group 
+    {
+        flex-direction: column;
+    }
+    .card-one
+    {
+        position: relative;
+        left: 0pc;
+        margin-right: 0;
+    }
+    .card-two, .card-three 
+    {
+        position: relative;
+        left: 3pc;
+    }
+}
+/* ************************************************************************************************************ */
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+    .navbar-expand-lg .navbar-nav 
+    {
+        margin-left: 17pc;
+    }
+    #tittle p 
+    {
+        margin-left: 12pc;
+    }
+    .card-group .profesional .mo,
+    .card-group .personal .mo,
+    .card-group .Business .mo
+    {
+        right: 3pc;
+    }
+    .card .Subscribe 
+    {
+        width: 44%;
+    }
+}
+/* ************************************************************************************************* */
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px),(max-width:1300px)
+{
+    
+}

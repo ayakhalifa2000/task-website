@@ -1,0 +1,737 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img
+{
+    height: 38px;
+    margin-left: 6pc;
+}
+.style-list li a:hover
+{
+    color: rgb(142, 23, 172)! important;
+    line-height: 10px;
+}
+.trans  
+{
+    justify-content: flex-end;
+    margin-right: 8pc;
+}
+.navbar-expand-lg .navbar-nav 
+{
+    margin-left: 31pc;
+}
+.navbar
+{
+    border-bottom: solid 2px #eee;
+}
+button[type="submit"]
+{
+    background-color: #754FFF;
+    color: #fff;
+    text-transform: capitalize;
+} 
+button[type="submit"]:hover
+{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#754FFF , #9120FF , #D53CE6 );
+    height: 50px;
+    font-weight: 900;
+}
+/* end */
+/* style head */
+.text
+{
+    margin-left: 6pc;
+    text-transform: capitalize;
+}
+.text h2
+{
+    font-size: 30px;
+    margin-bottom: 2pc;
+    margin-top: 2pc;
+}
+.text p
+{
+    color: grey;
+    font-size: 15px;    
+}
+.text span
+{
+    color: #8F62FF;
+}
+.text q
+{
+    color: #555560;
+    font-size: 31px;
+}
+/* end */
+/* style for head  */
+.head
+{
+    margin-left: 6pc;
+    text-transform: capitalize;
+}
+.head span
+{
+    font-size: 33px;
+    font-weight: 500;
+}
+.head h1
+{
+    padding-top: 1pc;
+    border: 1px solid #eee;
+    width: 35pc;
+    height: 6pc;
+    padding-left: 2pc;
+    margin-top:2pc;
+    margin-bottom:0pc;
+}
+.head h2
+{
+    border: 1px solid #eee;
+    width: 35pc;
+    height: 6pc;
+    padding-left: 2pc;
+    margin-top:0pc;
+    margin-bottom:0pc;
+    font-size: 33px;
+    padding-top: 2pc;
+}
+.head h3
+{
+    padding-top: 1pc;
+    border: 1px solid #eee;
+    width: 35pc;
+    height: 4pc;
+    padding-left: 2pc;
+    margin-top:0pc;
+    margin-bottom:0pc;
+    font-size: 29px;
+}
+.head h4
+{
+    padding-top: 1pc;
+    border: 1px solid #eee;
+    width: 35pc;
+    height: 4pc;
+    padding-left: 2pc;
+    margin-top:0pc;
+    margin-bottom:0pc;
+    font-size: 23px;
+}
+/* end */
+/* style for menu */
+#menu
+{
+    margin-top: 2pc;
+    display: flex;
+    text-transform: capitalize;
+    margin-left: 6pc;
+}
+#menu li
+{
+    color:grey;
+    font-size: 15px;
+}
+#menu span
+{
+    font-weight: 200;
+    font-size: 28px;
+}
+#menu .number
+{
+    margin-top: 53px;
+    margin-left: 3pc;
+}
+/* end */
+/* style for icons */
+.icons
+{
+    float: right;
+    position: relative;
+    bottom: 63pc;
+    right: 28pc;
+}
+.icons h3
+{
+    text-transform: capitalize;
+    margin-bottom: 1pc;
+}
+.fa-instagram
+{
+    font-size: 18px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 0.3px solid #d6c6c6;
+    padding: 6px;
+    height: 31px;
+    cursor: pointer;
+}
+.fa-instagram:hover
+{
+    background-color: #e1306c;
+    color: #fff;
+}
+/* end */
+/* style for buttons */
+.buttons
+{
+    text-transform: capitalize;
+    float: right;
+    position: relative;
+    bottom: 55pc;
+    right: 20pc;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.buttons .primary
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.buttons .primary button
+{
+    color: #fff;
+    background-image:linear-gradient(#6440FF, #744DFF ,#8A61FF);
+    border: none;
+    margin-top: 1pc;
+    height: 3pc;
+}
+.buttons .primary button:hover
+{
+    transform: rotate(8deg);
+}
+.buttons .primary .primary-btn
+{
+    color: #fff;
+    background-color: #6440FF;
+    border: none;
+    margin-top: 1pc;
+    height: 2pc;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.buttons .primary .primary-small
+{
+    color: #fff;
+    background-color: #6440FF;
+    border: none;
+    margin-top: 1pc;
+    height: 2pc;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+/* end */
+/* style for secondary */
+.btu-sec
+{
+    text-transform: capitalize;
+    float: right;
+    position: relative;
+    bottom: 55pc;
+    right: -8pc;
+}
+.btu-sec .secondary
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btu-sec .secondary .sec-lar
+{
+    height: 3pc;
+    margin-top: 1pc;
+    background-color: #FFBC07;
+    border: none;
+    height: 3pc;
+    color: #fff;
+    text-transform: capitalize;
+}
+.btu-sec .secondary .secondary-btn
+{
+    color: #fff;
+    background-color: #FFBC07;
+    border: none;
+    margin-top: 1pc;
+    height: 2pc;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.btu-sec .secondary .secondary-small
+{
+    color: #fff;
+    background-color: #FFBC07;
+    border: none;
+    margin-top: 1pc;
+    height: 2pc;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.buttons .secondary  .secondary-small:hover,
+.secondary-btn:hover,
+.sec-lar:hover
+{
+    transform: rotate(8deg);
+}
+/* end */
+/* style default */
+.defa-btu
+{
+    text-transform: capitalize;
+    float: right;
+    position: relative;
+    bottom: 40pc;
+    right: 2pc;
+    display: flex;
+    flex-direction: column;
+}
+.defa-btu .defauil
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.defa-btu .defauil .de-lar
+{
+    height: 3pc;
+    margin-top: 1pc;
+    background-color: #EDEDED;
+    border: none;
+    height: 3pc;
+    text-transform: capitalize;
+}
+.defa-btu .defauil .defauil-btn
+{
+    background-color: #EDEDED;
+    border: none;
+    margin-top: 1pc;
+    height: 2pc;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.defa-btu .defauil .defauil-small
+{
+    background-color: #EDEDED;
+    border: none;
+    margin-top: 1pc;
+    height: 2pc;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.defa-btu .defauil  .defauil-btn:hover,
+.de-lar:hover,
+.defauil-small:hover
+{
+    transform: rotate(8deg);
+}
+/* end */
+/* style for form */
+form
+{
+    width: 35pc;
+    position: relative;
+    bottom: 26pc;
+    right: -49pc;
+}
+form h4
+{
+    font-size: 34px;
+    text-transform: capitalize;
+}
+label 
+{
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 1pc;
+}
+.form-control 
+{
+    margin-bottom: 1pc;
+}
+.form-check 
+{
+    float: right;
+    margin-left: 2pc;
+    position: relative;
+    right: 16pc;
+}
+form #your-message
+{
+    outline: none;
+    border: 1px solid #eee;
+    padding-left: 1pc;
+    padding-top: 1pc;
+    font-size: 16px;
+    width: 35pc;
+    resize: none;
+}
+form .sent, .message
+{
+    background-color: #005BFF;
+    font-size: 15px;
+    width: 36pc;
+    padding-right: 19pc;
+    height: 3pc;
+}
+form .message
+{
+    background-color: #FE6767;
+    padding-right: 17pc;
+}
+form .sent:hover,
+.message:hover
+{
+    background-color: gray;
+    box-shadow: 1px 0px 0px 1px purple;
+}
+/* end */
+.line
+{
+    position: relative;
+    height: 1px;
+    background-color: #eee;
+    bottom: 16pc;
+}
+/* end */
+/* style the end */
+#who-are
+{
+    height: 0px;
+    position: relative;
+    display: flex;
+    width: 80pc;
+    bottom: 14pc;
+}
+#who-are .about
+{
+    margin: 2pc;
+}
+#who-are .about span
+{
+    font-weight: bolder;
+}
+#who-are .about p
+{
+    font-size: 15px;
+    color: gray;
+    margin-top: 1pc;
+}
+#who-are .share
+{
+    margin: 2pc;
+}
+#who-are .share h5 
+{
+    padding-bottom: 1pc;
+    font-size: 20px;
+
+}
+.fa-facebook-f ,.fa-twitter ,.fa-linkedin-in
+{
+    font-size: 18px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 0.3px solid #d6c6c6;
+    padding: 6px;
+    height: 31px;
+    cursor: pointer;
+}
+.fa-facebook-f:hover
+{
+    background-color: #0077B5;
+    color: #fff;
+}
+.fa-twitter:hover
+{
+    background-color: #1DA1F2;
+    color: #fff;
+}
+.fa-linkedin-in:hover
+{
+    background-color: #3B5998;
+    color: #fff;
+}
+#who-are .share p
+{
+    font-size: 15px;
+    color: gray;
+    padding-top: 1pc;
+}
+#who-are .sub
+{
+    margin: 2pc;
+    margin-left: 9pc;
+}
+.sub .sub-new
+{
+    width:124%;
+}
+#who-are .sub .button-ok
+{
+    background-color: #6E48FF;
+    color: #fff;
+}
+/* end */
+/* **************************************************************************************************************** */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px)
+{ 
+    .navbar 
+    {
+        width: 40pc;
+    }
+    .head h1, .head h2, .head h3 ,.head h4
+    {
+        width: 30pc
+    }
+    #menu .number 
+    {
+        margin-top: 38px;
+    }
+    .icons 
+    {
+        bottom: -1pc;
+        right: 18pc;
+    }
+    .buttons 
+    {
+        bottom: -8pc;
+        right: 10pc;
+    }
+    .btu-sec 
+    {
+        bottom: -8pc;
+        right: -18pc;
+    }
+    .defa-btu 
+    {
+        bottom: -11pc;
+        right: 18pc;
+    }
+    form 
+    {
+        bottom: -24pc;
+        right: -5pc;
+    }
+    form h4 
+    {
+        margin-top: 22pc;
+    }
+    .line 
+    {
+        bottom: -27pc;
+    }
+    #who-are 
+    {
+        width: 30pc;
+        bottom: -27pc;
+    }
+    form .sent, .message 
+    {
+        width: 34pc;
+    }
+    form #your-message 
+    {
+        width: 34pc;
+    }
+}
+/* ***************************************************************************************************************** */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{    
+    .navbar 
+    {
+        width: 40pc;
+    }
+    .head h1, .head h2, .head h3 ,.head h4
+    {
+        width: 30pc
+    }
+    #menu .number 
+    {
+        margin-top: 38px;
+    }
+    .icons 
+    {
+        bottom: -1pc;
+        right: 18pc;
+    }
+    .buttons 
+    {
+        bottom: -8pc;
+        right: 10pc;
+    }
+    .btu-sec 
+    {
+        bottom: -8pc;
+        right: -18pc;
+    }
+    .defa-btu 
+    {
+        bottom: -24pc;
+        right: -9pc;
+    }
+    form 
+    {
+        bottom: -24pc;
+        right: -5pc;
+    }
+    form h4 
+    {
+        margin-top: 22pc;
+    }
+    .line 
+    {
+        bottom: -27pc;
+    }
+    #who-are 
+    {
+        width: 30pc;
+        bottom: -27pc;
+    }
+    form .sent, .message 
+    {
+        width: 34pc;
+    }
+    form #your-message 
+    {
+        width: 34pc;
+    }
+}
+/* ************************************************************************************************************** */
+/* / Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .navbar 
+    {
+        width: 48pc;
+    }
+    .head h1, .head h2, .head h3 ,.head h4
+    {
+        width: 30pc
+    }
+    #menu .number 
+    {
+        margin-top: 38px;
+    }
+    .icons 
+    {
+        bottom: -2pc;
+        right: 32pc;
+    }
+    .buttons 
+    {
+        bottom: -8pc;
+        right: 24pc;
+    }
+    .btu-sec 
+    {
+        bottom: -8pc;
+        right: -4pc;
+    }
+    .defa-btu 
+    {
+        bottom: -24pc;
+        right: 6pc;
+    }
+    form 
+    {
+        bottom: -24pc;
+        right: -5pc;
+    }
+    form h4 
+    {
+        margin-top: 22pc;
+    }
+    .line 
+    {
+        bottom: -27pc;
+    }
+    #who-are 
+    {
+        width: 47pc;
+        bottom: -27pc;
+    }
+    form .sent, form .message 
+    {
+        width: 34pc;
+        padding-right: 16pc;
+    }
+    form #your-message 
+    {
+        width: 34pc;
+    }
+}
+/* *********************************************************************************************************** */
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .navbar 
+    {
+        width: 60pc;
+    }
+    .navbar-expand-lg .navbar-nav 
+    {
+        margin-left: 17pc;
+    }
+    .icons 
+    {
+        right: 6pc;
+    }
+    .buttons 
+    {
+        right: -3pc;
+    }
+    .btu-sec 
+    {
+        bottom: 40pc;
+        right: -12pc;
+    }
+    .defa-btu 
+    {
+        bottom: 25pc;
+        right: -20pc;
+    }
+    form 
+    {
+        bottom: 0pc;
+        right: -6pc;
+    }
+    form h4 
+    {
+        margin-top: 22pc;
+    }
+    .line 
+    {
+        bottom: -5pc;
+    }
+    #who-are 
+    {
+        width: 60pc;
+        bottom: -6pc;
+    }
+}
+/* *************************************************************************************************************** */
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+    .navbar-expand-lg .navbar-nav 
+    {
+        margin-left: 35pc;
+    }
+    form 
+    {
+        right: -46pc;
+    }
+
+}

@@ -1,0 +1,349 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img
+{
+    height: 38px;
+    margin-left: 6pc;
+}
+.style-list li a:hover
+{
+    color: rgb(142, 23, 172)! important;
+    line-height: 10px;
+}
+.trans  
+{
+    justify-content: flex-end;
+    margin-right: 8pc;
+}
+.navbar-expand-lg .navbar-nav 
+{
+    margin-left: 31pc;
+}
+button[type="submit"]
+{
+    background-color: #754FFF;
+    color: #fff;
+    text-transform: capitalize;
+} 
+button[type="submit"]:hover
+{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#754FFF , #9120FF , #D53CE6 );
+    height: 50px;
+    font-weight: 900;
+}
+.type
+{
+    text-align: center;
+}
+.type img
+{
+    margin-left: 2pc;
+}
+.type img:hover
+{
+    transform: rotate(5deg);
+}
+/* end */
+.line
+{
+    height: 1px;
+    background-color: #eee;
+}
+/* end */
+/* style the end */
+#who-are
+{
+    display: flex;
+}
+#who-are .about
+{
+    margin: 2pc;
+}
+#who-are .about span
+{
+    font-weight: bolder;
+}
+#who-are .about p
+{
+    font-size: 15px;
+    color: gray;
+    margin-top: 1pc;
+}
+#who-are .share
+{
+    margin: 2pc;
+}
+#who-are .share h5 
+{
+    padding-bottom: 1pc;
+    font-size: 20px;
+
+}
+.fa-facebook-f ,.fa-twitter ,.fa-linkedin-in
+{
+    font-size: 18px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 0.3px solid #d6c6c6;
+    padding: 6px;
+    height: 31px;
+    cursor: pointer;
+}
+.fa-facebook-f:hover
+{
+    background-color: #0077B5;
+    color: #fff;
+}
+.fa-twitter:hover
+{
+    background-color: #1DA1F2;
+    color: #fff;
+}
+.fa-linkedin-in:hover
+{
+    background-color: #3B5998;
+    color: #fff;
+}
+#who-are .share p
+{
+    font-size: 15px;
+    color: gray;
+    padding-top: 1pc;
+}
+#who-are .sub
+{
+    margin: 2pc;
+    margin-left: 9pc;
+}
+.sub .sub-new
+{
+    width:124%;
+}
+#who-are .sub .button-ok
+{
+    background-color: #6E48FF;
+    color: #fff;
+}
+/* end */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    .navbar ,#background
+    {
+        width: 36pc;
+    }
+    #background .text h1, #background .text .pragraph 
+    {
+        bottom: 19pc;
+        left: 2pc;
+        font-size: 14px;
+    }
+    #background .text .btn_dowload 
+    {
+        bottom: 20pc;
+        left: 2pc;
+    }
+    .inform .vivamus h2, .text-pra 
+    {
+        left: 0pc;
+    }
+    .type
+    {
+        height: 529px;
+        flex-direction: column;
+    }
+    .line
+    { 
+        margin-left: 0pc;
+        width: 99%;
+        margin-top: 2pc;
+    }
+    .doard .images .studio img 
+    {
+        margin: 0pc;
+        width: 36pc !important;
+    }
+    .doard .circle 
+    {
+        margin-top: 1pc;
+    }
+    .part-one .center .down
+    {
+        left: 13pc;
+    }
+    #data .partRight img 
+    {
+        width: 73%;
+        margin-top: 21pc;
+    }
+    .partLift .text1
+    {
+        font-size: 15px;
+    }
+    footer .work-with img 
+    {
+        width: 12pc;
+        margin-left: -135px;;
+    }
+    footer .work-with 
+    {
+        margin-top: 15pc;
+        margin-right: 9pc;
+    }
+    #who-are .share h5 
+    {
+        font-size: 16px;
+    font-weight: bolder
+    }
+    #who-are .share p 
+    {
+        font-size: 10px;
+    }
+    #who-are .sub 
+    {
+        margin-left: 5pc;
+    }
+    #who-are .sub h5
+    {
+        font-size: 12px;
+    }
+}
+/* *************************************************************************************************** */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    #background ,.navbar ,.type ,.line
+    {
+        width: 76pc;
+    }
+    .inform .vivamus h2, .text-pra 
+    {
+        left: 20pc;
+    }
+    .doard 
+    {
+        width: 76pc;
+    }
+    .doard .images .studio img 
+    {
+        width: 100% !important;
+        margin: 0pc;
+    }
+    .doard .circle
+    {
+        margin-top: 2pc;
+    }
+    .part-one 
+    {
+        width: 76pc;
+    }
+    .part-one .center .down 
+    {
+        left: 33pc;
+    }
+    .list-unstyled
+    {
+        padding-left: 0pc !important;
+    }
+    #data .partRight img 
+    {
+        margin-left: 37pc;
+    }
+    footer .work-with 
+    {
+        margin-top: 9pc;
+    }
+    #who-are .sub 
+    {
+        position: relative;
+        right: -31pc;
+    }
+    #who-are .sub h5
+    {
+        font-size: 32px;
+    }
+    .sub .sub-new 
+    {
+        width: 171%;
+    }
+    #who-are .share 
+    {
+        position: relative;
+        left: 13pc;
+    }
+    
+}
+/* ******************************************************************************************************* */
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .navbar ,#background ,.type ,.line ,.doard ,.part-one
+    {
+        width: 76pc;
+    }
+    .part-one .center .down 
+    {
+        left: 33pc;
+    }
+    .list-unstyled
+    {
+        position: relative;
+        left: 13pc;
+    }   
+    footer .work-with 
+    {
+        margin-top: 7pc;
+    } 
+    #who-are .sub 
+    {
+        position: relative;
+        margin-left: 9pc;
+        left: 5pc;
+    }
+}
+/* ************************************************************************************************************ */
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+    .navbar ,#background ,.type ,.line ,.doard ,.part-one
+    {
+        width: 76pc;
+    }
+    .part-one .center .down 
+    {
+        left: 33pc;
+    }
+    .list-unstyled
+    {
+        position: relative;
+        left: 13pc;
+    }   
+    footer .work-with 
+    {
+        margin-top: 7pc;
+    } 
+}
+/* ************************************************************************************************* */
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) ,(max-width:1300px)
+{
+    .navbar ,#background ,.type ,.line ,.doard ,.part-one
+    {
+        width: 84pc;
+    }
+    .part-one .center .down 
+    {
+        left: 37pc;
+    }   
+    footer .work-with 
+    {
+        margin-top: 7pc;
+    } 
+}
+/* ************************************************************************************************************** */
